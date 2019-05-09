@@ -1,0 +1,9 @@
+.github/ci/
+**/__fixtures__/**
+**/__mocks__/**
+**/*.test.js
+coverage
+dist/
+docs/
+scripts/
+rollup.config.js

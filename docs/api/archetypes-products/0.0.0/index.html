@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Muli:100,400,700|Oswald:300|Inconsolata,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+</head>
+
+<body>
+    <div id="stickyNavbarOverlay"></div>
+    <div class="top-navbar">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    
+                    
+                        <h1 class="navbar-item">Documentation</h1>
+                    
+                    <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-3" id="sidebarNav">
+                <div class="sidebar">
+                    <nav>
+                        <h2><a href="index.html">Home</a></h2><div class="category"><h3><a href="global.html">Global</a></h3></div>
+                    </nav>
+                </div>
+            </div>
+            <div class="column is-9-desktop">
+                <div class="content" id="main-content-wrapper">
+                    <header class="page-title">
+                        <p>Title</p>
+                        <h1>Home</h1>
+                    </header>
+                    
+                    
+
+
+
+    
+
+
+    <h3>archetypes-products 0.0.0</h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><h1>archetypes-products</h1>
+<p><img src="docs/img/logos/logo.png" alt="banner"></p>
+<p><a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="The MIT License"></a>
+<a href="https://npmjs.org/package/archetypes-products"><img src="https://img.shields.io/npm/v/archetypes-products.svg?style=flat-square" alt="NPM version"></a> <a href="https://app.fossa.com/projects/custom%2B804%2Fgithub.com%2Fcommonality%2Farchetypes-products?ref=badge_shield"><img src="https://app.fossa.com/api/projects/custom%2B804%2Fgithub.com%2Fcommonality%2Farchetypes-products.svg?type=shield" alt="FOSSA Status"></a>
+<a href="https://snyk.io/test/github/commonality/archetypes-products?targetFile=package.json"><img src="https://snyk.io/test/github/commonality/archetypes-products/badge.svg?style=flat-square&amp;targetFile=package.json" alt="Known Vulnerabilities"></a><br>
+<a href="https://david-dm.org/commonality/archetypes-products"><img src="https://david-dm.org/commonality/archetypes-products.svg?theme=shields.io&amp;style=flat-square" alt="Dependency Status"></a><br>
+<a href="https://travis-ci.com/commonality/archetypes-products"><img src="https://img.shields.io/travis/com/commonality/archetypes-products.svg?branch=master&amp;style=flat-square&amp;label=macOS%20%7C%20ubuntu%20builds&amp;logo=travis" alt="MacOS and Ubuntu build statuses"></a>
+<a href="https://ci.appveyor.com/project/gregswindle/archetypes-products"><img src="https://img.shields.io/appveyor/ci/gregswindle/archetypes-products.svg?style=flat-square&amp;logo=appveyor&amp;label=windows%20build" alt="Windows build status"></a>
+<a href="https://coveralls.io/github/commonality/archetypes-products"><img src="https://coveralls.io/repos/github/commonality/archetypes-products/badge.svg?style=flat-square" alt="Coveralls test coverage"></a>
+<a href="https://www.codacy.com/app/commonality/archetypes-products?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=commonaliarchetypes-productsoducts&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/bc3fdfbea2d84079b5d785b6de0886ab" alt="Codacy code quality"></a></p>
+<blockquote>
+<p>Models for value-based goods and services, which are exchanged for Money or
+other goods and services.</p>
+</blockquote>
+<h2>Table of Contents</h2>
+<!-- toc -->
+<ul>
+<li><a href="#1-overview">1. Overview</a>
+<ul>
+<li><a href="#11-standards">1.1. Standards</a></li>
+<li><a href="#12-archetypesproduct-model">1.2. <strong>@archetypes/product</strong> Model</a></li>
+</ul>
+</li>
+<li><a href="#2-installation">2. Installation</a></li>
+<li><a href="#3-usage">3. Usage</a></li>
+<li><a href="#4-api">4. API</a>
+<ul>
+<li><a href="#41-product">4.1. <code>Product</code></a></li>
+<li><a href="#42-producttype">4.2. <code>ProductType</code></a></li>
+<li><a href="#43-productidentifier">4.3. <code>ProductIdentifier</code></a></li>
+<li><a href="#44-productinstance">4.4. <code>ProductInstance</code></a></li>
+<li><a href="#45-serialnumber">4.5. <code>SerialNumber</code></a></li>
+<li><a href="#46-batch">4.6. <code>Batch</code></a></li>
+<li><a href="#47-productfeaturetype">4.7. <code>ProductFeatureType</code></a></li>
+<li><a href="#48-productfeatureinstance">4.8. <code>ProductFeatureInstance</code></a></li>
+<li><a href="#49-productcatalog">4.9. <code>ProductCatalog</code></a></li>
+<li><a href="#410-catalogentry">4.10. <code>CatalogEntry</code></a></li>
+<li><a href="#411-package">4.11. <code>Package</code></a></li>
+<li><a href="#412-packagetype">4.12. <code>PackageType</code></a></li>
+<li><a href="#413-packageinstance">4.13. <code>PackageInstance</code></a></li>
+<li><a href="#414-productset">4.14. <code>ProductSet</code></a></li>
+<li><a href="#415-propositionofinclusion">4.15. <code>PropositionOfInclusion</code></a></li>
+<li><a href="#416-productrelationship">4.16. <code>ProductRelationship</code></a></li>
+<li><a href="#417-price">4.17. <code>Price</code></a></li>
+<li><a href="#418-arbitraryprice">4.18. <code>ArbitraryPrice</code></a></li>
+<li><a href="#419-pricingstrategy">4.19. <code>PricingStrategy</code></a></li>
+<li><a href="#420-measuredproducttype">4.20. <code>MeasuredProductType</code></a></li>
+<li><a href="#421-measuredproductinstance">4.21. <code>MeasuredProductInstance</code></a></li>
+<li><a href="#422-service">4.22. <code>Service</code></a></li>
+<li><a href="#423-servicetype">4.23. <code>ServiceType</code></a></li>
+<li><a href="#424-serviceinstance">4.24. <code>ServiceInstance</code></a></li>
+<li><a href="#425-servicedeliverystatus">4.25. <code>ServiceDeliveryStatus</code></a></li>
+</ul>
+</li>
+<li><a href="#5-maintainers">5. Maintainers</a></li>
+<li><a href="#6-contributions">6. Contributions</a></li>
+<li><a href="#7-license">7. License</a></li>
+</ul>
+<!-- tocstop -->
+<!-- tocend -->
+<h2>1. Overview</h2>
+<p>Businesses and people make money by selling either goods or services. We call these goods and services &quot;products.&quot;</p>
+<p><strong>@archetypes/product</strong> focuses on selling products, rather than manufacturing them. A clear and explicit model of Products enables flexible applications that can adapt to new business opportunities.</p>
+<h3>1.1. Standards</h3>
+<p><strong>@archetypes/product</strong> comply with the standards in Table 1.1.</p>
+<p><em>Table 1.1</em></p>
+<table>
+<thead>
+<tr>
+<th>Standard</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[EAN.UCC System][ean-ucc-url]</td>
+<td>Product identification standards.</td>
+</tr>
+<tr>
+<td>[ISO 2108][iso-2108-url]</td>
+<td>International Standard Book Number (ISBN)</td>
+</tr>
+<tr>
+<td>[ISO 10957][iso-10957-url]</td>
+<td>International Standard Music Number (ISMN)</td>
+</tr>
+</tbody>
+</table>
+<h3>1.2. <strong>@archetypes/product</strong> Model</h3>
+<p><a href="">See the API section</a> for model summaries.</p>
+<h2>2. Installation</h2>
+<pre class="prettyprint source lang-sh"><code>npm install @archetypes/products
+</code></pre>
+<p><small><a href="#table-of-contents"><img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/triangle-up.svg" alt="Back to Table of contents">
+[toc]</a></small></p>
+<h2>3. Usage</h2>
+<h2>4. API</h2>
+<h3>4.1. <code>Product</code></h3>
+<p>A <code>Product</code> is a generalized model for representing goods and services.</p>
+<h3>4.2. <code>ProductType</code></h3>
+<p>Represents types of <code>Products</code> (e.g., a type of LCD monitor).</p>
+<h3>4.3. <code>ProductIdentifier</code></h3>
+<p>Uniquely identifies <code>ProductTypes</code>.</p>
+<h3>4.4. <code>ProductInstance</code></h3>
+<p>Represents specific instances of a product type (e.g., a particular LCD monitor).</p>
+<h3>4.5. <code>SerialNumber</code></h3>
+<p>Uniquely identifies a <code>ProductInstance</code>.</p>
+<h3>4.6. <code>Batch</code></h3>
+<p>Uniquely identifies a set or <code>ProductInstances</code> of the same <code>ProductType</code> that are
+tracked together.</p>
+<h3>4.7. <code>ProductFeatureType</code></h3>
+<p>Represents a type of feature associated with a <code>ProductType</code>.</p>
+<h3>4.8. <code>ProductFeatureInstance</code></h3>
+<p>Represents a specific feature of a <code>ProductInstance</code>.</p>
+<h3>4.9. <code>ProductCatalog</code></h3>
+<p>Represents a persistent store of product information.</p>
+<h3>4.10. <code>CatalogEntry</code></h3>
+<p>Represents the information about a particular type of product in a <code>ProductCatalog</code>.</p>
+<h3>4.11. <code>Package</code></h3>
+<p>Represents how to sell selections of products grouped together as a unit.</p>
+<h3>4.12. <code>PackageType</code></h3>
+<p>Represents how to specify the possible contents of a particular type of package.</p>
+<h3>4.13. <code>PackageInstance</code></h3>
+<p>Represents a particular instance of a <code>PackageType</code>.</p>
+<h3>4.14. <code>ProductSet</code></h3>
+<p>Represents how to represent a set of ProductTypes from which selections may be made.</p>
+<h3>4.15. <code>PropositionOfInclusion</code></h3>
+<p>Represents how to describe the possible contents of a package in a rule of the form:</p>
+<pre class="prettyprint source lang-text"><code>– P: isSubsetOf( T, S, min, max )
+</code></pre>
+<h3>4.16. <code>ProductRelationship</code></h3>
+<p>Represents fixed relationships between <code>ProductTypes</code>.</p>
+<ul>
+<li>
+<p><code>UpgradableTo</code> represents an upgrade relationship.</p>
+</li>
+<li>
+<p><code>SubstitutedBy</code> represents a substitution relationship.</p>
+</li>
+<li>
+<p><code>ReplacedBy</code> represents a replacement relationship.</p>
+</li>
+<li>
+<p><code>ComplementedBy</code> represents a relationship where one <code>ProductType</code> complements or enhances another.</p>
+</li>
+<li>
+<p><code>CompatibleWith</code> represents a relationship that shows that one <code>ProductType</code> is compatible with another.</p>
+</li>
+<li>
+<p><code>IncompatibleWith</code> represents a relationship that shows that one <code>ProductType</code> is incompatible with another.</p>
+</li>
+</ul>
+<h3>4.17. <code>Price</code></h3>
+<p>Represents the amount of money that must be paid in order to purchase a good or service.</p>
+<p>• Pricing approaches</p>
+<p>• Price reductions: how to represent different types of price reduction</p>
+<h3>4.18. <code>ArbitraryPrice</code></h3>
+<p>Represents an ad hoc Price applied to a specific <code>ProductInstance</code>.</p>
+<p>• Rules-based pricing: a walk-through of a pricing process that is driven by business rules</p>
+<p>• Package pricing: how to represent the <code>Price</code> of a package</p>
+<h3>4.19. <code>PricingStrategy</code></h3>
+<p>Represents pricing algorithm for a package, such as products sold by units of measure.</p>
+<h3>4.20. <code>MeasuredProductType</code></h3>
+<p>Represents how to represent a <code>ProductType</code>, such as gasoline, that is sold by measure.</p>
+<h3>4.21. <code>MeasuredProductInstance</code></h3>
+<p>Represents how to represent the amount of a <code>MeasuredProductType</code> (e.g., 10 gallons of gasoline) involved in a specific sale.</p>
+<h3>4.22. <code>Service</code></h3>
+<p>Represents how to represent processes or activities that are offered for sale.</p>
+<h3>4.23. <code>ServiceType</code></h3>
+<p>Represents how to represent a type of service.</p>
+<h3>4.24. <code>ServiceInstance</code></h3>
+<p>Represents an instance or execution of a type of service.</p>
+<h3>4.25. <code>ServiceDeliveryStatus</code></h3>
+<p>Records the status of the delivery process for a particular <code>ServiceInstance</code>.</p>
+<h2>5. Maintainers</h2>
+<p><a href="https://github.com/gregswindle">@gregswindle</a></p>
+<blockquote>
+<p><img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/book.svg" alt="Information for Maintainers"> The
+<a href="./docs/maintainer-guide/README.md">Maintainer Guide</a> describes how we develop
+and release <strong>archetype-rules</strong> (and has useful information for Maintainers
+and Trusted Committers).</p>
+</blockquote>
+<p><small><a href="#table-of-contents"><img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/triangle-up.svg" alt="Back to Table of contents">
+[toc]</a></small></p>
+<h2>6. Contributions</h2>
+<p><a href="https://github.com/commonaliarchetypes-productsoducts/graphs/contributors"><img src="https://img.shields.io/github/contributors/commonality/archetypes-products.svg?style=social" alt="GitHub Contributors"></a>
+<a href="https://github.com/commonaliarchetypes-productsoducts"><img src="https://img.shields.io/github/stars/commonality/archetypes-products.svg?style=social" alt="GitHub"></a>
+<a href="https://github.com/commonaliarchetypes-productsoducts/network"><img src="https://img.shields.io/github/forks/commonality/archetypes-products.svg?style=social" alt="GitHub"></a>
+<a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/commonality/archetypes-products.svg?style=flat-square" alt="Greenkeeper badge"></a></p>
+<p><img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/heart.svg" alt="Gratitude"> We gratefully accept Pull Requests. Here's what you
+need to know to get started.</p>
+<p>Before submitting a Pull Request, please read our:</p>
+<ul>
+<li><a href="code-of-conduct.md">Code of Conduct</a></li>
+<li><a href="CONTRIBUTING.md">Contributing Aggreement</a></li>
+<li><a href="docs/developer-guide#README.md">Developer Guide</a></li>
+<li><a href="docs/maintainer-guide#readme">Maintainer/Trusted Committer Guide</a></li>
+<li><a href="docs/adr#readme">Architecture Decision Records</a></li>
+</ul>
+<p><small><a href="#table-of-contents"><img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/triangle-up.svg" alt="Back to Table of contents">
+[toc]</a></small></p>
+<h2>7. License</h2>
+<p><a href="LICENSE">MIT</a> © 2019 Greg Swindle</p>
+<blockquote>
+<p><a href="https://app.fossa.com/attribution/5895d784-6a99-4c46-961c-6aecd9414623"><img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/law.svg" alt="Open Source Licenses"> View the latest <strong>detailed legal
+NOTICE</strong> report
+<img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/link-external.svg" alt="This link will take you to another Web site"></a>.</p>
+</blockquote>
+<p><a href="https://app.fossa.com/projects/custom%2B804%2Fgithub.com%2Fcommonalityarchetypes-productsoducts?ref=badge_large"><img src="https://app.fossa.com/api/projects/custom%2B804%2Fgithub.com%2Fcommonality%2Farchetypes-products.svg?type=large" alt="FOSSA Status"></a></p>
+<p><small><a href="#table-of-contents"><img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/triangle-up.svg" alt="Back to Table of contents">
+[toc]</a></small></p>
+<!-- ⛔️ Do not remove this line or anything under it. ⛔️  -->
+<!-- Link and image refs -->
+<!-- Octicon img references  --></article>
+    </section>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.1</a> on Thu May 09 2019 01:35:29 GMT-0500 (Central Daylight Time)</p>
+        <p class="sidebar-created-by">
+            <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+            <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers</a>
+        </p>
+    </div>
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/app.min.js"></script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

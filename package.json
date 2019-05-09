@@ -1,0 +1,338 @@
+{
+  "name": "archetypes-products",
+  "description": "Models for value-based goods and services, which are exchanged for Money or other goods and services.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Greg Swindle",
+    "email": "greg@swindle.net",
+    "url": "https://github.com/commonality"
+  },
+  "bugs": "https://github.com/commonality/archetypes-products/issues",
+  "commitplease": {
+    "style": "angular",
+    "types": [
+      "build",
+      "chore",
+      "ci",
+      "docs",
+      "feat",
+      "fix",
+      "perf",
+      "refactor",
+      "revert",
+      "style",
+      "test"
+    ],
+    "scope": "\\S+.*"
+  },
+  "contributors": [
+    {
+      "name": "Greg Swindle",
+      "url": "https://github.com/gregswindle"
+    }
+  ],
+  "dependencies": {
+    "@sindresorhus/is": "0.16.0",
+    "debug": "4.1.1",
+    "dotenv-extended": "2.4.0",
+    "enum-nom-nommer": "1.0.0",
+    "fs-extra": "7.0.1",
+    "lodash.camelcase": "4.3.0",
+    "lodash.get": "4.4.2",
+    "lodash.hasin": "4.5.2",
+    "lodash.includes": "4.3.0",
+    "lodash.intersection": "4.4.0",
+    "lodash.invoke": "4.5.2",
+    "lodash.isequal": "4.5.0",
+    "lodash.kebabcase": "4.1.1",
+    "lodash.set": "4.3.2",
+    "lodash.toarray": "4.4.0",
+    "lodash.topairs": "4.3.0",
+    "lodash.upperfirst": "4.3.1",
+    "ow": "0.12.0",
+    "parse-numeric": "1.0.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/github": "5.2.10",
+    "@semantic-release/npm": "5.1.7",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "all-contributors-cli": "6.4.0",
+    "better-docs": "1.1.6",
+    "codacy-coverage": "3.4.0",
+    "commitizen": "3.1.1",
+    "commitplease": "^3.2.0",
+    "coveralls": "3.0.3",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "4.2.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-xo": "^0.26.0",
+    "eslint-find-rules": "3.3.1",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-json": "1.4.0",
+    "eslint-plugin-no-unsafe-innerhtml": "^1.0.16",
+    "eslint-plugin-no-unsanitized": "^3.0.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-scanjs-rules": "^0.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sonarjs": "0.3.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-unicorn": "8.0.2",
+    "eslint-plugin-xss": "^0.1.9",
+    "git-repo-info": "2.1.0",
+    "husky": "2.2.0",
+    "jest": "24.8.0",
+    "jest-junit": "^6.4.0",
+    "jest-sonar-reporter": "2.0.0",
+    "jsdoc": "3.6.1",
+    "jsdoc-mermaid": "1.0.0",
+    "lint-staged": "^8.1.6",
+    "prettier": "1.17.0",
+    "rollup": "1.11.3",
+    "rollup-plugin-commonjs": "9.3.4",
+    "rollup-plugin-json": "4.0.0",
+    "rollup-plugin-node-resolve": "4.2.3",
+    "rollup-plugin-terser": "4.0.4",
+    "semantic-release": "15.13.13",
+    "sonarqube-scanner": "2.4.0"
+  },
+  "engines": {
+    "npm": ">= 8.0.0"
+  },
+  "files": [
+    "lib",
+    "!**/__tests__/**"
+  ],
+  "greenkeeper": {
+    "commitMessages": {
+      "initialBadge": "docs(status): add greenkeeper badge",
+      "initialDependencies": "build(dependencies): update dependencies",
+      "initialBranches": "chore(permissions): allow greenkeeper branch access",
+      "dependencyUpdate": "chore(dependency): update ${dependency} to v${version}",
+      "devDependencyUpdate": "chore(dependency): update ${dependency} to v${version}",
+      "dependencyPin": "fix(dependency): pin ${dependency} to ${oldVersion}",
+      "devDependencyPin": "fix(dependency): pin ${dependency} to ${oldVersion}"
+    },
+    "prTitles": {
+      "initialPR": "ci(drift): enable Greenkeeper",
+      "initialPrBadge": "ci(drift): enable Greenkeeper",
+      "initialPrBadgeOnly": "ci(drift): add greenkeeper badge",
+      "initialSubgroupPR": "ci(drift): update dependencies for ${group}",
+      "basicPR": "ci(drift): update ${dependency} to latest",
+      "groupPR": "ci(drift): update ${dependency} in group ${group} to latest"
+    }
+  },
+  "homepage": "https://github.com/commonality/archetypes-products#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "jest": {
+    "automock": false,
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/.github/",
+      "<rootDir>/.github/",
+      "<rootDir>/docs/",
+      "<rootDir>/lib/*/__tests__/__fixtures__/",
+      "<rootDir>/lib/cli/signature-ctrl/__tests__/__fixtures__/",
+      "<rootDir>/lib/*/__tests__/__mocks__/",
+      "<rootDir>/node_modules",
+      "<rootDir>/lib/rule.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "moduleDirectories": [
+      "node_modules",
+      "lib"
+    ],
+    "testPathIgnorePatterns": [
+      "/.github/rc/",
+      "__fixtures__/",
+      "__mocks__/",
+      "/docs/",
+      "/node_modules/",
+      "/lib/rule.js"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "watchman": false
+  },
+  "jestSonar": {
+    "reportFile": "sonar-test-report.xml"
+  },
+  "keywords": [
+    "archetype-pattern",
+    "boolean-logic",
+    "facts",
+    "json",
+    "node",
+    "node-module",
+    "node.js",
+    "nodejs",
+    "rpn",
+    "rule-context",
+    "rule-engine",
+    "rule-override",
+    "rule-overrides",
+    "rule-set",
+    "rule-sets",
+    "rules",
+    "rules-engine"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:js:fix",
+      "npm run docs:api",
+      "git add"
+    ],
+    "*.json": [
+      "npm run lint:json:fix",
+      "git add"
+    ]
+  },
+  "main": "dist/archetypes-products.js",
+  "readme": "https://github.com/commonality/archtypes-rules/README.md",
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ],
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "angular",
+          "releaseRules": [
+            {
+              "type": "build",
+              "release": "patch"
+            },
+            {
+              "type": "chore",
+              "release": "patch"
+            },
+            {
+              "type": "ci",
+              "release": "patch"
+            },
+            {
+              "type": "docs",
+              "release": "patch"
+            },
+            {
+              "type": "feat",
+              "release": "minor"
+            },
+            {
+              "type": "fix",
+              "release": "patch"
+            },
+            {
+              "type": "perf",
+              "release": "patch"
+            },
+            {
+              "type": "refactor",
+              "release": "patch"
+            },
+            {
+              "type": "style",
+              "release": "patch"
+            },
+            {
+              "type": "test",
+              "release": "patch"
+            }
+          ]
+        }
+      ],
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "package.json",
+              "label": "Product manifest"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "label": "All product changes up-to and including this distribution"
+            },
+            {
+              "path": "LICENSE",
+              "label": "License for distribution"
+            },
+            {
+              "path": "README.md",
+              "label": "Installation and usage instructions for distribution"
+            },
+            {
+              "path": "dist/*.js",
+              "label": "Public API module and its private dependencies"
+            }
+          ]
+        }
+      ],
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      {
+        "path": "@semantic-release/changelog",
+        "changelogTitle": "# Changelog"
+      },
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "message": "chore(release): ${nextRelease.gitTag}"
+        }
+      ]
+    ],
+    "publish": [
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ],
+    "success": false,
+    "fail": false
+  },
+  "repository": "git@github.com:commonality/archetypes-products.git",
+  "scripts": {
+    "bundle": "rollup -c ./rollup.config.js --environment INCLUDE_DEPS,BUILD:production",
+    "ci:coverage": "npm run ci:coverage:codacy && npm run ci:coverage:coveralls",
+    "ci:coverage:codacy": "cat ./coverage/lcov.info | codacy-coverage",
+    "ci:coverage:coveralls": "cat ./coverage/lcov.info | coveralls",
+    "ci:lint:js": "eslint --config .eslintrc.json . --fix -f json -o eslint-report.json",
+    "ci:test": "npm run start && npm run ci:lint:js && jest --coverage --ci --reporters=jest-junit --testResultsProcessor=jest-sonar-reporter",
+    "docs:api": "node_modules/.bin/jsdoc ./lib/ -r -R ./README.md -P package.json -t ./node_modules/better-docs/ -d ./docs/api/",
+    "lint:js": "eslint .",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint:json:fix": "prettier --write **/*.json",
+    "postci:test": "npm run ci:coverage",
+    "postversion": "npm run bundle",
+    "pretest": "npm run lint:js:fix",
+    "qa:review:sonar": "node -r ./.github/ci/qa/sonar-scan.js",
+    "security:audit:dependencies": "npm audit --dry-run",
+    "semantic-release": "semantic-release",
+    "start": "node -r dotenv-extended ./lib/env-config.js",
+    "test": "jest --coverage --verbose"
+  }
+}
