@@ -75,9 +75,11 @@ _Table 1.1_
 | [ISO 2108][iso-2108-url]      | International Standard Book Number (ISBN)  |
 | [ISO 10957][iso-10957-url]    | International Standard Music Number (ISMN) |
 
-### 1.2. **@archetypes/product** Model
+### 1.2. **@archetypes/product** Specification
 
-[See the API section]() for model summaries.
+_Figure 1: **@archetypes/product** module UML class diagram._ [^1]
+
+![@archetypes/product module UML class diagram][archetypes-products-specification]
 
 ## 2. Installation
 
@@ -263,6 +265,10 @@ Before submitting a Pull Request, please read our:
 <small>[![Back to Table of contents][octicon-triangle-up]
 \[toc\]][toc-anchor]</small>
 
+## 8. Citations and References
+
+[^1]: Arlow, J., & Neustadt, I. (2004). _Enterprise Patterns and MDA_ (p. 205). Boston: Addison-Wesley.
+
 <!-- ⛔️ Do not remove this line or anything under it. ⛔️  -->
 
 <!-- Link and image refs -->
@@ -271,7 +277,7 @@ Before submitting a Pull Request, please read our:
 
 [appveyor-url]: https://ci.appveyor.com/project/gregswindle/archetypes-products
 
-[archetypes-products-overview]: ./docs/assets/archetypes.rules-overview.png
+[archetypes-products-specification]: ./docs/assets/archetypes-product-module-specification.png
 
 [codacy-coverage-image]: https://img.shields.
 
