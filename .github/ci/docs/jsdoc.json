@@ -25,7 +25,7 @@
     "cleverLinks": false,
     "monospaceLinks": false,
     "better-docs": {
-      "name": "archetypes-products API Documentation",
+      "name": "@archetypes/product API Documentation",
       "logo": "docs/img/logos/logo.png",
       "trackingCode": null,
       "navigation": [

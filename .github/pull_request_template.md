@@ -95,7 +95,7 @@ $ npm test
 
 ### How to test a release
 
-The [Pre-release test instructions](https://github.com/commonality/archetypes-products/wiki/Pre-release-test-instructions) include step-by-step guidelines for bundling, packing, and testing this module as it would be released on NPM.
+The [Pre-release test instructions](https://github.com/commonality/@archetypes/product/wiki/Pre-release-test-instructions) include step-by-step guidelines for bundling, packing, and testing this module as it would be released on NPM.
 
 
 ---
@@ -103,49 +103,49 @@ The [Pre-release test instructions](https://github.com/commonality/archetypes-pr
 <!-- SonarCloud badge refs -->
 
 [sonar-alert-status-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=alert_status&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=alert_status&template=FLAT
 [sonar-alert-status-url]:
-  https://sonarcloud.io/dashboard?id=commonality_archetypes-products
+  https://sonarcloud.io/dashboard?id=commonality_@archetypes/product
 [sonar-bugs-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=bugs&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=bugs&template=FLAT
 [sonar-bugs-url]:
-  https://sonarcloud.io/dashboard?id=commonality_archetypes-products
+  https://sonarcloud.io/dashboard?id=commonality_@archetypes/product
 [sonar-code-smells-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=code_smells&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=code_smells&template=FLAT
 [sonar-code-smells-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=code_smells
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=code_smells
 [sonar-coverage-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=coverage&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=coverage&template=FLAT
 [sonar-coverage-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=coverage
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=coverage
 [sonar-duplicated-lines-density-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=duplicated_lines_density&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=duplicated_lines_density&template=FLAT
 [sonar-duplicated-lines-density-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=duplicated_lines_density
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=duplicated_lines_density
 [sonar-ncloc-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=ncloc&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=ncloc&template=FLAT
 [sonar-ncloc-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=ncloc
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=ncloc
 [sonar-reliability-rating-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=reliability_rating&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=reliability_rating&template=FLAT
 [sonar-reliability-rating-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=reliability_rating
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=reliability_rating
 [sonar-security-rating-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=security_rating&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=security_rating&template=FLAT
 [sonar-security-rating-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=security_rating
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=security_rating
 [sonar-sqale-index-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=sqale_index&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=sqale_index&template=FLAT
 [sonar-sqale-index-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=sqale_index
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=sqale_index
 [sonar-sqale-rating-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=sqale_rating&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=sqale_rating&template=FLAT
 [sonar-sqale-rating-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=sqale_rating
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=sqale_rating
 [sonar-vulnerabilities-badge]:
-  https://sonarcloud.io/api/project_badges/measure?project=commonality_archetypes-products&metric=vulnerabilities&template=FLAT
+  https://sonarcloud.io/api/project_badges/measure?project=commonality_@archetypes/product&metric=vulnerabilities&template=FLAT
 [sonar-vulnerabilities-url]:
-  https://sonarcloud.io/component_measures?id=commonality_archetypes-products&metric=vulnerabilities
+  https://sonarcloud.io/component_measures?id=commonality_@archetypes/product&metric=vulnerabilities
 
 <!-- ⛔️ Badge references ⛔️  -->
 
@@ -162,9 +162,9 @@ The [Pre-release test instructions](https://github.com/commonality/archetypes-pr
 
 [standardjs-logo]: https://cdn.rawgit.com/feross/standard/master/badge.svg
 [standardjs-url]: https://github.com/feross/standard
-[eslint-logo]: https://raw.githubusercontent.com/commonality/archetypes-products/master/docs/img/logos/logo-eslint.png
+[eslint-logo]: https://raw.githubusercontent.com/commonality/@archetypes/product/master/docs/img/logos/logo-eslint.png
 [eslint-url]: https://eslint.org/docs/user-guide/getting-started
-[jest-logo]: https://raw.githubusercontent.com/commonality/archetypes-products/master/docs/img/logos/logo-jest.png
+[jest-logo]: https://raw.githubusercontent.com/commonality/@archetypes/product/master/docs/img/logos/logo-jest.png
 [jest-url]: https://facebook.github.io/jest/docs/en/getting-started.html
 
 <!-- ⛔️ Octicon img references ⛔️  -->

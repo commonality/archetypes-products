@@ -1,6 +1,6 @@
 # Maintainer Guide
 
-This guide is intended for those who work as part of the archetypes-products
+This guide is intended for those who work as part of the @archetypes/product
 product development and delivery team.
 
 ## 1. [Issue management](issues.md)
@@ -14,11 +14,11 @@ Describes how to review incoming Pull Requests.
 
 ## 3. [Release management](releases.md)
 
-Describes how to do a release for archetypes-products.
+Describes how to do a release for @archetypes/product.
 
 ## 4. [Governance](governance.md)
 
-Describes the governance policy for archetypes-products, including the rights and
+Describes the governance policy for @archetypes/product, including the rights and
 privileges of individuals inside the product development and delivery.
 
 * * *

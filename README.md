@@ -1,4 +1,4 @@
-# archetypes-products
+# @archetypes/product
 
 ![banner](docs/img/logos/logo.png)
 
@@ -20,7 +20,7 @@
 
 - [1. Overview](#1-overview)
   * [1.1. Standards](#11-standards)
-  * [1.2. **@archetypes/product** Model](#12-archetypesproduct-model)
+  * [1.2. **@archetypes/product** Specification](#12-archetypesproduct-specification)
 - [2. Installation](#2-installation)
 - [3. Usage](#3-usage)
 - [4. API](#4-api)
@@ -52,6 +52,7 @@
 - [5. Maintainers](#5-maintainers)
 - [6. Contributions](#6-contributions)
 - [7. License](#7-license)
+- [8. Citations and References](#8-citations-and-references)
 
 <!-- tocstop -->
 
@@ -71,9 +72,9 @@ _Table 1.1_
 
 | Standard                      | Description                                |
 | ----------------------------- | ------------------------------------------ |
-| [EAN.UCC System][ean-ucc-url] | Product identification standards.          |
-| [ISO 2108][iso-2108-url]      | International Standard Book Number (ISBN)  |
-| [ISO 10957][iso-10957-url]    | International Standard Music Number (ISMN) |
+| [EAN.UCC System](http://www.ibcaweb.org/guide/guide_mfr/ch4.htm) | Product identification standards.          |
+| [ISO 2108](https://www.iso.org/standard/65483.html)              | International Standard Book Number (ISBN)  |
+| [ISO 10957](https://www.iso.org/standard/43173.html)             | International Standard Music Number (ISMN) |
 
 ### 1.2. **@archetypes/product** Specification
 
@@ -84,7 +85,7 @@ _Figure 1: **@archetypes/product** module UML class diagram._ [^1]
 ## 2. Installation
 
 ```sh
-npm install @archetypes/products
+npm install @archetypes/product
 ```
 
 <small>[![Back to Table of contents][octicon-triangle-up]

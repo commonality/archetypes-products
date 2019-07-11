@@ -153,7 +153,7 @@ file.
 # Product manifest (package.json) variables
 #
 
-NPM_PACKAGE_NAME=archetypes-products
+NPM_PACKAGE_NAME=@archetypes/product
 NPM_PACKAGE_VERSION=
 
 #
@@ -176,7 +176,7 @@ K8S_SECRET_GITLAB_TOKEN=
 
 # name attribute of <testsuites>
 # @default "jest tests"
-JEST_SUITE_NAME=archetypes-products tests
+JEST_SUITE_NAME=@archetypes/product tests
 
 # File path to save the output.
 # @default "./junit.xml"
