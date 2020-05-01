@@ -50,7 +50,8 @@
     "lodash.topairs": "4.3.0",
     "lodash.upperfirst": "4.3.1",
     "ow": "0.13.2",
-    "parse-numeric": "1.0.2"
+    "parse-numeric": "1.0.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "3.0.4",
@@ -333,6 +334,9 @@
     "security:audit:dependencies": "npm audit --dry-run",
     "semantic-release": "semantic-release",
     "start": "node -r dotenv-extended ./lib/env-config.js",
-    "test": "jest --coverage --verbose"
-  }
+    "test": "jest --coverage --verbose",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
